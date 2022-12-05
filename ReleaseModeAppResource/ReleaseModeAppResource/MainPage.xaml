@@ -5,9 +5,10 @@
     
 
     <ScrollView>
-        <VerticalStackLayout
+        <StackLayout
             Spacing="25"
             Padding="30,0"
+            Background="{StaticResource Gray401Brush}"
             VerticalOptions="Center">
 
             <Label
@@ -16,23 +17,16 @@
                 FontSize="32"
                 Background="{StaticResource Key=Gray51Brush}"
                 HorizontalOptions="Center" />
-
-            <Label
-                Text="Welcome to .NET Multi-platform App UI"
-                SemanticProperties.HeadingLevel="Level2"
-                Background="{StaticResource Key=BTBlueBrush1}"
-                SemanticProperties.Description="Welcome to dot net Multi platform App U I"
-                FontSize="18"
-                HorizontalOptions="Center" />
-
+            
             <Button
                 x:Name="CounterBtn"
                 Text="Click me"  
+                Background="{StaticResource BTBlueBrush1}"
                 SemanticProperties.Hint="Counts the number of times you click"
                 Clicked="OnCounterClicked"
                 HorizontalOptions="Center" />
 
-        </VerticalStackLayout>
+        </StackLayout>
     </ScrollView>
 
 </ContentPage>
