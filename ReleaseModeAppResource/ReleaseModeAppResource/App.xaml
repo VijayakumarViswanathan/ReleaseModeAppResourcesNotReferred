@@ -1,0 +1,20 @@
+﻿<?xml version = "1.0" encoding = "UTF-8" ?>
+<Application xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:ReleaseModeAppResource"
+             x:Class="ReleaseModeAppResource.App">
+    <Application.Resources>
+        <ResourceDictionary>
+
+            <SolidColorBrush x:Key="BTBlueBrush1">LightBlue</SolidColorBrush>
+            <SolidColorBrush x:Key="Gray401Brush">#919191</SolidColorBrush>
+            <SolidColorBrush x:Key="Gray101Brush">#E1E1E1</SolidColorBrush>
+            <SolidColorBrush x:Key="Gray51Brush">Pink</SolidColorBrush>
+          
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="Resources/Styles/Colors.xaml" />
+                <ResourceDictionary Source="Resources/Styles/Styles.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>
